@@ -1,5 +1,5 @@
 # ScriptPremium  
-# Script Created By Xbibz Developer🔥
+ Script Created By Xbibz Developer🔥
 # Copying and selling without developer's permission is strictly prohibited!
 
 My Website : https://xbibzofficiall.glitch.me
