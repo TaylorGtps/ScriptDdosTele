@@ -1,13 +1,18 @@
 require('dotenv').config();
+// Konfigurasi hardcoded
+const BOT_TOKEN = '7991511524:AAE1ReD73oQ7p8MRhLtj8UQZf8FxTA1OeG0';
+const OWNER_ID = '7264431734';
+const AUTHORIZED_USERS = ['7264431734', '1234567890'];
+
 const { Telegraf, Markup } = require('telegraf');
 const fetch = require('node-fetch');
 const { exec } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-const bot = new Telegraf(process.env.7991511524:AAE1ReD73oQ7p8MRhLtj8UQZf8FxTA1OeG0);
-const ownerId = process.env.7264431734; // Set OWNER_ID di file .env
-let authorizedUsers = process.env.AUTHORIZED_USERS ? process.env.AUTHORIZED_USERS.split(',') : [ownerId];
+const bot = new Telegraf(BOT_TOKEN);
+const ownerId = OWNER_ID;
+let authorizedUsers = AUTHORIZED_USERS;
 
 let isAttackRunning = false;
 let attackTargets = [];
