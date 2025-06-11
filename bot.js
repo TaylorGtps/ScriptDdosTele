@@ -5,8 +5,8 @@ const { exec } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-const bot = new Telegraf(process.env.BOT_TOKEN);
-const ownerId = process.env.OWNER_ID; // Set OWNER_ID di file .env
+const bot = new Telegraf(process.env.7991511524:AAE1ReD73oQ7p8MRhLtj8UQZf8FxTA1OeG0);
+const ownerId = process.env.7264431734; // Set OWNER_ID di file .env
 let authorizedUsers = process.env.AUTHORIZED_USERS ? process.env.AUTHORIZED_USERS.split(',') : [ownerId];
 
 let isAttackRunning = false;
